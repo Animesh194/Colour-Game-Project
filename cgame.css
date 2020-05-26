@@ -1,0 +1,72 @@
+body{
+	background-color: #232323;
+	margin: 0;
+	font-family: "Montserrat";
+}
+
+.square{
+	width: 30%;
+	/*height: 30%;*/
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%; /*set all side border radius...can be done for any single side also*/
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;  /*all browser does not suppor transition as written above....webkit for firefox, and moz for mozilla*/
+}
+
+h1{
+	background: #0d7bbc;
+	color: white;
+	margin: 0;
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+.colour{
+	font-size: 200%;
+}
+
+#msg{
+	display: inline-block; /*it is used to display an element as an inline-level block container....i.e it can be given height and width*/
+	width: 20%;
+	color: #0d7bbc;
+	text-transform: uppercase;
+}
+
+#container{
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+#nav{
+	background-color: white;
+	text-align: center;
+	height: 30px;
+}
+
+.clicked{
+	background-color: #0d7bbc;
+	color: white;
+}
+
+button{
+	border: none;
+	background: none;
+	height: 100%;
+	color: #0d7bbc;
+	font-weight: 700;
+	letter-spacing: 1px;
+	transition: all 0.6s; /*this property takes two arguement....'property_on_which_to_be_applied' and 'time_for_transition'*/
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+}
+
+button:hover{
+	background: #0d7bbc;
+	color: white;
+}
